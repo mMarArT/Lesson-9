@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Slab:wght@100;400&display=swap');
+*
+    {
+        margin: 0;
+        padding: 0;
+        
+    }
+body
+    {
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header
+{
+    background: no-repeat url(/img/background.png) center;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+}  
+.c1-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo{
+    margin-left: 40px;
+    font-size: 50px;
+    display: flex;
+    align-items: stretch;
+}
+
+.menu{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+li{
+    margin: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0.6%;
+}
+h2{
+    font-size: 20px;
+    font-family: none;
+}
+.btn{
+    width: 12%;
+    height: 7%;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    border-top-left-radius: 4% 16%;
+    border-top-right-radius: 4% 16%;
+    border-bottom-left-radius: 4% 16%;
+    border-bottom-right-radius: 4% 16%;
+}
